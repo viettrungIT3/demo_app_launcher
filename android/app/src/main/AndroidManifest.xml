@@ -1,4 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <queries>
+        <package android:name="com.google.android.youtube" />
+        <package android:name="com.google.android.gm" />
+        <package android:name="com.google.android.apps.docs" />
+        <package android:name="com.google.android.apps.maps" />
+        <package android:name="com.google.android.calendar" />
+        <package android:name="com.google.android.apps.photos" />
+    </queries>
+
     <application
         android:label="demo_app_launcher"
         android:name="${applicationName}"
