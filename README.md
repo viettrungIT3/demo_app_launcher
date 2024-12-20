@@ -1,16 +1,16 @@
 # demo_app_launcher
 
-A new Flutter project.
+This is a demo app launcher for Android.
 
-## Getting Started
+- Youtube
+- Gmail
+- Google Drive
+- Google Maps
+- Google Calendar
+- Google Photos
 
-This project is a starting point for a Flutter application.
+## Code:
+[code](https://github.com/viettrungIT3/demo_app_launcher/commit/bf95e1aa1b0421658fad403a58ee33554300fcd5)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demo
+![Screenshot_1734444849](https://github.com/user-attachments/assets/00e5e22a-48f7-4548-8424-c5fb87742542)
