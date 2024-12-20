@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class AppService {
@@ -24,7 +23,7 @@ class AppService {
       }
       return [];
     } catch (e) {
-      debugPrint('Error getting installed apps: $e');
+      print('Error getting installed apps: $e');
       return [];
     }
   }
@@ -33,7 +32,7 @@ class AppService {
     try {
       await platform.invokeMethod('launchApp', {'packageName': packageName});
     } catch (e) {
-      debugPrint('Error launching app: $e');
+      print('Error launching app: $e');
     }
   }
 }
